@@ -1,7 +1,7 @@
-author = "Tonic";
-onLoadName = "Geek 4 Life v1.0";
+author = "Tonic & CaPTaiN_DruX";
+onLoadName = "CaPTaiN_DruX's Altis";
 loadScreen = "GFL_Load.jpg";
-onLoadMission = "Geek For Life Développé par Tonic";
+onLoadMission = "Mission de base développée par Tonic et modifié par CaPTaiN_DruX";
 joinUnassigned = 1;
 respawn = BASE;
 respawndelay = 5;
@@ -59,13 +59,13 @@ class CfgSounds
 	
 	
 	class caching
-    {
+        {
     	name = "caching";
     	sound[] = {"\sounds\caching.ogg", .90, 1};
     	titles[] = {};
-    };
-	
-	class car_lock
+        };
+    
+        class car_lock
 	{
 		name = "car_lock";
 		sound[] = {"\sounds\car_lock.ogg", 1.0, 1};
